@@ -15,8 +15,6 @@ revealOptions:
   width: 1000
 ---
 
-<!-- .slide: data-background="demo/background.png" -->
-
 <div class="middle center">
 <div style="width: 100%">
 
@@ -98,4 +96,6 @@ $$
 
 ## Image
 
-![Demo Image](demo/placeholder.png)
+![DEnd
+
+这是演示幻灯片的最后一页。
