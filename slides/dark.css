@@ -1,0 +1,37 @@
+:root {
+  --r-background-color: #0a0e27;
+  --r-main-color: #ffffff;
+  --r-link-color: #64b5f6;
+  --r-link-color-hover: #90caf9;
+  --r-selection-background-color: #0d47a1;
+  --r-selection-color: #ffffff;
+  --r-overlay-element-bg-color: 255, 255, 255;
+}
+
+.reveal h1,
+.reveal h2,
+.reveal h3,
+.reveal h4,
+.reveal h5,
+.reveal h6 {
+  color: #ffffff;
+}
+
+.reveal .slides {
+  border: 1.5px #0d47a1 solid;
+}
+
+.reveal hr {
+  border: 10px solid #002554;
+}}
+.reveal .middle hr {
+  background: radial-gradient(
+    ellipse at center,
+    rgba(0, 102, 204, 0.2) 0,
+    hsla(0, 0%, 100%, 0) 75%
+  );
+}
+
+.reveal-viewport.reveal-scroll .scroll-page-content {
+  border: 1.5px #0d47a1 solid;
+}}
