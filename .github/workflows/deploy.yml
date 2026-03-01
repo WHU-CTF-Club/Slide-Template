@@ -39,8 +39,11 @@ jobs:
           mkdir -p _site
           for md in *.md; do
             if [ -f "$md" ]; then
+              name="${md%.md}"
+              out_dir="_site/$name"
+              mkdir -p "$out_dir"
               reveal-md "$md" \
-                --static _site \
+                --static "$out_dir" \
                 --template template.html \
                 --css custom.css \
                 --css dark.css \
