@@ -138,12 +138,12 @@ mkdir slides/your-slide
 
 ### 6. 代码块
 
-````markdown
+```markdown
 ​`python
 def greet(name: str) -> str:
     return f"Hello, {name}!"
 ​`
-````
+```
 
 ### 7. 数学公式
 
